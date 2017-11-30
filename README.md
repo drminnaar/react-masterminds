@@ -63,16 +63,16 @@ npm -v
 
 Follow the following steps to get development environment running.
 
-* Clone _'react-timer-advanced'_ repository from GitHub
+* Clone _'react-masterminds'_ repository from GitHub
 
   ```bash
-  git clone https://github.com/drminnaar/react-timer-advanced.git
+  git clone https://github.com/drminnaar/react-masterminds.git
   ```
 
    _OR USING SSH_
 
   ```bash
-  git clone git@github.com:drminnaar/react-timer-advanced.git
+  git clone git@github.com:drminnaar/react-masterminds.git
   ```
 
 * Install node modules
