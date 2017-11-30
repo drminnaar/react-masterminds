@@ -78,7 +78,7 @@ Follow the following steps to get development environment running.
 * Install node modules
 
    ```bash
-   cd react-timer-basic
+   cd react-masterminds
    npm install
    npm dedupe
    ```
