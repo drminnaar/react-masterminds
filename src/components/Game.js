@@ -113,36 +113,37 @@ class Game extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4"></div>
-
-
-                    <div className="col-md-4">
-                        <div className="form-group">
-                            <ul className="nav nav-pills nav-fill">
-                                <li className="nav-item">
-                                    <a className={`nav-link ${this.easyLinkClass()}`}
-                                        onClick={this.startEasyGame}>EASY</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className={`nav-link ${this.mediumLinkClass()}`}
-                                        onClick={this.startMediumGame}>MEDIUM</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className={`nav-link ${this.hardLinkClass()}`}
-                                        onClick={this.startHardGame}>HARD</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="form-group">
-                            <input type="number" className="form-control game-display"
-                                placeholder="enter number"
-                                onChange={this.handleNumberChange}
-                                value={this.state.guess} />
-                        </div>
-                        <div className="form-group">
-                            <button className="btn btn-lg btn-default btn-block"
-                                onClick={this.guessNumber}>GUESS</button>
-                        </div>
+                    <div className="col-md-4 mx-auto">
+                        {
+                            this.state.outcome !== 'you win' && <div>
+                                <div className="form-group">
+                                    <ul className="nav nav-pills nav-fill">
+                                        <li className="nav-item">
+                                            <a className={`nav-link ${this.easyLinkClass()}`}
+                                                onClick={this.startEasyGame}>EASY</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className={`nav-link ${this.mediumLinkClass()}`}
+                                                onClick={this.startMediumGame}>MEDIUM</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a className={`nav-link ${this.hardLinkClass()}`}
+                                                onClick={this.startHardGame}>HARD</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="form-group">
+                                    <input type="number" className="form-control game-display"
+                                        placeholder="enter number"
+                                        onChange={this.handleNumberChange}
+                                        value={this.state.guess} />
+                                </div>
+                                <div className="form-group">
+                                    <button className="btn btn-lg btn-success btn-block"
+                                        onClick={this.guessNumber}>GUESS</button>
+                                </div>
+                            </div>
+                        }
                         {
                             this.state.outcome && this.state.outcome !== 'you win' &&
                             <div className="form-group">
@@ -162,9 +163,6 @@ class Game extends Component {
                             </div>
                         }
                     </div>
-
-
-                    <div className="col-md-4"></div>
                 </div>
             </div>
         );
