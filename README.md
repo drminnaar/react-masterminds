@@ -10,6 +10,12 @@ The game provides 3 difficulty level settings, namely, easy, medium, and hard. B
 
 The application is composed of a single _Game_ component that uses a _GuessEngine_ class to manage the game logic.
 
+Component Diagram
+![](https://user-images.githubusercontent.com/33935506/34461376-955fe31a-ee30-11e7-87a2-7b719e14b7fd.png)
+
+Domain Service Diagram
+![](https://user-images.githubusercontent.com/33935506/34461377-95a10110-ee30-11e7-8114-712bdb39af1d.png)
+
 This project also demonstrates:
 
 * a typcial React project layout structure
@@ -20,7 +26,11 @@ This project also demonstrates:
 
 **Screenshots:**
 
-![react-masterminds-1](https://user-images.githubusercontent.com/33935506/33792331-08cb733e-dca5-11e7-9c6d-84002eba6b6b.PNG)![react-masterminds-2](https://user-images.githubusercontent.com/33935506/33792332-0901984c-dca5-11e7-8c97-723756e40467.PNG)![react-masterminds-3](https://user-images.githubusercontent.com/33935506/33792333-0934eb70-dca5-11e7-9a1c-a36133646fb1.PNG)![react-masterminds-4](https://user-images.githubusercontent.com/33935506/33792335-0970e008-dca5-11e7-918f-5bb6c3414538.PNG)![react-masterminds-5](https://user-images.githubusercontent.com/33935506/33792336-09a7b236-dca5-11e7-89d7-50c4ccd1659c.PNG)
+... | ...
+--- | ---
+![](https://user-images.githubusercontent.com/33935506/33792331-08cb733e-dca5-11e7-9c6d-84002eba6b6b.PNG) | ![](https://user-images.githubusercontent.com/33935506/33792332-0901984c-dca5-11e7-8c97-723756e40467.PNG)
+![](https://user-images.githubusercontent.com/33935506/33792333-0934eb70-dca5-11e7-9a1c-a36133646fb1.PNG) | ![](https://user-images.githubusercontent.com/33935506/33792335-0970e008-dca5-11e7-918f-5bb6c3414538.PNG)
+![](https://user-images.githubusercontent.com/33935506/33792336-09a7b236-dca5-11e7-89d7-50c4ccd1659c.PNG) |
 
 ---
 
@@ -60,6 +70,18 @@ This project also demonstrates:
 * [react-movie-cards]
 
   A basic application that displays a list of movies as a list of cards
+
+* [react-calculator-standard]
+
+  A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions
+
+* [react-bitcoin-monitor]
+
+  An app that monitors changes in the Bitcoin Price Index (BPI)
+
+* [react-weather-standard]
+
+  A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation
 
 ---
 
@@ -176,3 +198,6 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
 [react-movie-cards]: https://github.com/drminnaar/react-movie-cards
+[react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
+[react-bitcoin-monitor]: https://github.com/drminnaar/react-bitcoin-monitor
+[react-weather-standard]: https://github.com/drminnaar/react-weather-standard
