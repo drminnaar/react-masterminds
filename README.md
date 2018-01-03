@@ -8,6 +8,8 @@ The game provides 3 difficulty level settings, namely, easy, medium, and hard. B
 * Medium - 0 -> 100
 * Difficult - 0 -> 1000
 
+Go **[here](http://react-masterminds.drminnaar.me/)** for live demo.
+
 The application is composed of a single _Game_ component that uses a _GuessEngine_ class to manage the game logic.
 
 Component Diagram
@@ -42,6 +44,7 @@ This project also demonstrates:
 * [Webpack](https://webpack.js.org/) - A module bundler
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -191,6 +194,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
+[Surge]: https://surge.sh/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
